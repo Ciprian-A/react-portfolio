@@ -1,8 +1,22 @@
 .navbar {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(315deg, #182A3E 0%, #121F2D 74%) !important; 
+  visibility: visible;
+  transition: all 0.5s;
+  width: 100%;
+}
+.hidden {
+  width: 100%;
+
+    visibility: hidden;
+    transition: all 0.5s;
+
 }
 .logo {
-  width: 25%;
-  height: 20%;
-  margin: 0;
+  min-width: 10%;
+  height: 35px;
+  
+}
+.navLinks:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
 }

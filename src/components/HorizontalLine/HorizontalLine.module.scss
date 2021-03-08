@@ -1,0 +1,18 @@
+.lineContainer {
+  width: 100%;
+  height: 50px;
+  background: black;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .line { 
+    border : 0;
+    height: 2px;
+    width: 60%; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(184, 203, 212), rgba(0, 0, 0, 0));
+    text-align: center;
+  }
+
+}

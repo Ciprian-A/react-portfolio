@@ -1,0 +1,40 @@
+article {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    .main {
+      div {
+        font-size: 2.8em;
+        color: #fff;
+      }
+    }
+
+    .typewriter {
+      color: white;
+      font-size: 2.8em;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  article {
+    .heading {
+      .main {
+        div {
+          font-size: 2em;
+        }
+      }
+      .typewriter {
+        font-size: 2em;
+      }
+    }
+  }
+}

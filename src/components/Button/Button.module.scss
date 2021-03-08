@@ -1,0 +1,16 @@
+.button {
+  
+  background: linear-gradient(315deg, #182A3E 0%, #121F2D 74%);
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+
+  &:hover {
+    background: linear-gradient(315deg, #696c6d 0%, #4d4846 74%);
+    cursor: pointer;
+  }
+  a {
+    color: white;
+  }
+}
