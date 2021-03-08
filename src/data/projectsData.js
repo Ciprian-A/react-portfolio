@@ -46,8 +46,8 @@ const projectsData = [
     id: 5,
     name: 'Currency convertor',
     imageSrc: converter, 
-    description: 'Calculator made with Vanilla Javascript, HTML and SCSS',
-    gitLink: 'https://github.com/Ciprian-A/Calculator-js',
+    description: 'Currency convertor made with React.Js, SCSS which allows you to check the latest currency rates',
+    gitLink: 'https://github.com/Ciprian-A/currency-converter',
     liveSite: 'https://currency.ciprian-andrei-wd.co.uk'
 
   },
@@ -55,8 +55,8 @@ const projectsData = [
     id: 6,
     name: 'Morse Code Translator',
     imageSrc: morse,
-    description: 'Morse Code app made with Vanilla Javascript, HTML and SCSS',
-    gitLink: 'https://github.com/Ciprian-A/Calculator-js',
+    description: 'Morse Code Translator app made with Vanilla Javascript, HTML and SCSS.',
+    gitLink: 'https://github.com/Ciprian-A/morse-translator',
     liveSite: 'https://morse.ciprian-andrei-wd.co.uk'
 
   }

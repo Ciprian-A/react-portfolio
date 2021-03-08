@@ -3,6 +3,8 @@ import styles from './NavBar.module.scss'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import logo from '../../assets/logo.svg';
+
+
 const NavBar = () => {
   const [ navbar, setNavbar ] = useState(true);
 

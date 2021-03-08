@@ -5,12 +5,12 @@ import software from '../../assets/software.svg';
 import Parallax from 'react-rellax';
 
 
-
-
 const SoftwareExperience = () => {
 
   const title = <h2 style={{color: "white"}}>SOFTWARE EXPERIENCE</h2>
+
   return (
+
     <article className={styles.softwareComponent}> 
       <section>
         <Parallax

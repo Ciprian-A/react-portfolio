@@ -23,13 +23,6 @@
       flex-direction: column;
       padding: 0px 50px;
       border-right: 10px solid #A30F28;
-      // border-bottom-right-radius: 50%;
-     
-
-
-      // margin: 90px 0;
-      
-
     }
 
     .imgContainer {
@@ -40,11 +33,8 @@
       .programmer {
         width: 90%;
         max-width: 100%;
-        // margin: 0 50px;
         position: relative;
         margin: auto;
-        // border: 3px solid black;
-        
       }
     }
   }
@@ -61,13 +51,11 @@
       display: block;
 
       .imgContainer {
-        // border-left: 10px solid #A30F28;
         display: none;
       }
       .aboutText {
         border-right: 15px solid #A30F28;
         border-bottom-right-radius: 50%;
-        // padding: 5px;
         text-align: center;
         box-sizing: border-box;
       }

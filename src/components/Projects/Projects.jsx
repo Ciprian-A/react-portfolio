@@ -4,7 +4,7 @@ import Button from '../Button'
 
 const Projects = (props) => {
 
-  const { name, description, GitHub, Launch,imageSrc } = props;
+  const { name, description, GitHub, Launch, imageSrc } = props;
   
   return (
     <div className={styles.projectContainer}>
@@ -23,10 +23,8 @@ const Projects = (props) => {
             link={Launch}
             name='Launch'
           />
-          
         </div>
       </div>
-      
     </div>
   )
 }

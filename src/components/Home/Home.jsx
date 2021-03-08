@@ -6,6 +6,7 @@ import Parallax from 'react-rellax';
 const Home = () => {
 
   return (
+    
     <section id='home' className={styles.home}>
       <div className={styles.welcome}>
         <Parallax
@@ -15,9 +16,6 @@ const Home = () => {
         >
           <WelcomeMessage />
         </Parallax>
-      </div>
-      
-      <div className={styles.programmerContainer}>
       </div>
     </section>
   )
