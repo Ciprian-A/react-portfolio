@@ -9,7 +9,7 @@ const projectsData = [
   {
     id: 1,
     name: 'Calculator',
-    imageSrc: calc, 
+    imageSrc: calc,
     description: 'Calculator made with Vanilla Javascript, HTML and SCSS',
     gitLink: 'https://github.com/Ciprian-A/Calculator-js',
     liveSite: 'https://calculator.ciprian-andrei-wd.co.uk'
@@ -27,40 +27,40 @@ const projectsData = [
   {
     id: 3,
     name: 'Hangman Game',
-    imageSrc: hangman, 
+    imageSrc: hangman,
     description: 'Hangman Game made with HTML, SCSS and Vanilla Javascript',
     gitLink: 'https://github.com/Ciprian-A/Hangman',
     liveSite: 'https://hangman.ciprian-andrei-wd.co.uk'
-    
+
   },
   {
     id: 4,
     name: 'Breaking-Bad-Cast',
-    imageSrc: bbad, 
+    imageSrc: bbad,
     description: 'A React app that allows you to search for the main characters in the famous tv-series.',
     gitLink: 'https://github.com/Ciprian-A/breaking-bad-cast',
     liveSite: 'https://breaking-bad-cast.ciprian-andrei-wd.co.uk'
-    
+
   },
   {
     id: 5,
-    name: 'Currency convertor',
-    imageSrc: converter, 
+    name: 'Currency converter',
+    imageSrc: converter,
     description: 'Currency convertor made with React.Js, SCSS which allows you to check the latest currency rates',
     gitLink: 'https://github.com/Ciprian-A/currency-converter',
     liveSite: 'https://currency.ciprian-andrei-wd.co.uk'
-    
+
   },
   {
     id: 6,
     name: 'Punk API',
-    imageSrc: beer, 
+    imageSrc: beer,
     description: 'Coming soon',
     gitLink: '#',
     liveSite: '#'
-  
+
   },
-  
+
 ]
 
 export default projectsData
