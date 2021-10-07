@@ -10,7 +10,6 @@
     height: 100%;
     position: relative;
 
-
     .softwareText {
       width: 80%;
       height: 100%;
@@ -19,15 +18,11 @@
       flex-direction: column;
       padding: 0px 50px;
       margin: 90px 0;
-      border-left: 10px solid #A30F28;
-
-
 
       h5 {
         text-decoration: underline;
         text-decoration-color: white;
       }
-    
     }
 
     .imgContainer {
@@ -35,18 +30,16 @@
       display: flex;
       justify-content: center;
 
-
-
-  
       .software {
         width: 90%;
         max-width: 100%;
+        min-width: 400px;
         position: relative;
         margin: auto;
+        margin-left: 50px;
       }
     }
   }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -58,8 +51,8 @@
         display: none;
       }
       .softwareText {
-        border-left: 15px solid #A30F28;
-        border-top-left-radius: 50%;
+        border-left: 7px solid #47baff;
+        margin-left: 5px;
         text-align: center;
         width: 100%;
         box-sizing: border-box;

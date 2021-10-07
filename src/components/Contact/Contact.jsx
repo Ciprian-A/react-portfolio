@@ -16,17 +16,12 @@ const Contact = () => {
   return (
     <div id='contact' className={styles.contactContainer}>
       <Parallax
-        speed={0}
-        percentage={0} 
+        speed={1.3}
+        percentage={0.8} 
       >
         <SectionHeader
           title={title}
         />
-      </Parallax>
-      <Parallax
-        speed={-1}
-        percentage={0.6} 
-      >
         <h5>PLEASE FEEL FREE TO CONTACT ME VIA THE LINKS BELOW FOR ANY PROJECT COLLABORATION</h5>
       </Parallax>
       <Parallax

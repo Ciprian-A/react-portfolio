@@ -5,9 +5,12 @@ const Footer = () => {
   const currentTime = new Date().getUTCFullYear();
   return (
     <div className={styles.footer}>
-      <p>&copy;Designed by Ciprian Andrei using React.Js {currentTime}</p>
+      <p>
+        <span>&copy;</span> Designed by Ciprian Andrei{' '}
+        <span>{currentTime}</span>
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

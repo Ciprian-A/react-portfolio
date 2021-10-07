@@ -1,11 +1,8 @@
 .aboutComponent {
-  
-  background: linear-gradient(315deg, #182A3E 0%, #121F2D 74%);      
+  background: linear-gradient(315deg, #182a3e 0%, #121f2d 74%);
   width: 100%;
   height: 100%;
   position: relative;
-  
- 
 
   section {
     display: flex;
@@ -13,16 +10,18 @@
     width: 100%;
     height: 100%;
     position: relative;
+    padding: 50px 0 120px;
 
     .aboutText {
+      margin-top: 40px;
       width: 100%;
       height: 100%;
       color: white;
-      align-items: center;
+      align-items: left;
       display: flex;
       flex-direction: column;
       padding: 0px 50px;
-      border-right: 10px solid #A30F28;
+     
     }
 
     .imgContainer {
@@ -33,8 +32,10 @@
       .programmer {
         width: 90%;
         max-width: 100%;
-        position: relative;
+        min-width: 470px;
+        // position: relative;
         margin: auto;
+        margin-right: 50px;
       }
     }
   }
@@ -54,8 +55,8 @@
         display: none;
       }
       .aboutText {
-        border-right: 15px solid #A30F28;
-        border-bottom-right-radius: 50%;
+        border-right: 7px solid #47baff;
+        // border-bottom-right-radius: 50%;
         text-align: center;
         box-sizing: border-box;
       }

@@ -35,7 +35,7 @@ const projectsData = [
   },
   {
     id: 4,
-    name: 'Breaking-Bad-Cast',
+    name: 'Breaking-Bad Cast',
     imageSrc: bbad,
     description: 'A React app that allows you to search for the main characters in the famous tv-series.',
     gitLink: 'https://github.com/Ciprian-A/breaking-bad-cast',
