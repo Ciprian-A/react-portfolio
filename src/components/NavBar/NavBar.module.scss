@@ -1,20 +1,21 @@
 .navbar {
-  background-image: linear-gradient(315deg, #182A3E 0%, #121F2D 74%) !important; 
+  background-image: linear-gradient(315deg, #182a3e 0%, #121f2d 74%) !important;
   visibility: visible;
-  transition: all 0.5s;
-  width: 100%;
+  transform: scale(1);
+
+  transform-origin: top;
+  transition: 0.5s ease-in-out;
 }
 .hidden {
-  width: 100%;
+  transform: scaleY(0);
+  transform: translateY(-100%);
+  transform-origin: top;
 
-    visibility: hidden;
-    transition: all 0.5s;
-
+  transition: all 0.5s;
 }
 .logo {
   min-width: 10%;
   height: 35px;
-  
 }
 .navLinks:hover {
   text-decoration: underline;

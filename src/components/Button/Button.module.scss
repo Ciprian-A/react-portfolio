@@ -1,9 +1,9 @@
 .button {
-  
-  background: linear-gradient(315deg, #182A3E 0%, #121F2D 74%);
+  background: linear-gradient(315deg, #182a3e 0%, #121f2d 74%);
   width: 100%;
   padding: 5px 20px;
   text-align: center;
+  border: 3px solid white;
   border-radius: 20px;
 
   &:hover {
